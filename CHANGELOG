@@ -1,0 +1,6 @@
+
+# 0.1
+Initial Version
+- compact disk space by comparing SHA1 and hardlink
+- Uses multiple cores in a min(4, cpucount) thread pool (if available)
+- Uses a concatened bunch of SHA1s for large files (each per 1GB segment of the file)
